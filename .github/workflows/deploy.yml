@@ -40,7 +40,7 @@ jobs:
         with:
           cmd: install # will run `yarn install` command
       - name: Build
-        run: yarn build
+        run: ls -la && yarn build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
